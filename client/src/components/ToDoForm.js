@@ -43,6 +43,7 @@ function ToDoForm(props) {
         <div>
           <input
             type="text"
+            autoComplete={"off"}
             placeholder="Add a todo"
             value={input}
             name="text"
